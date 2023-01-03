@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NotFound = () => {
@@ -7,7 +6,7 @@ const NotFound = () => {
       <div
         className='hero bg-image'
         style={{
-          backgroundImage: `url(${'img/3.jpg'})`,
+          backgroundImage: `url(${'img/404.jpg'})`,
         }}
       >
         <div className='content'>
@@ -26,10 +25,8 @@ const NotFound = () => {
           >
             <Link to='/'>BACK TO HOME</Link>
           </div>
-          {/* End purchase_button */}
         </div>
       </div>
-      {/* End .hero */}
     </div>
   );
 };
