@@ -3,18 +3,34 @@ import { useForm } from 'react-hook-form';
 const Contact = () => {
   const {
     register,
-    handleSubmit,
+    // handleSubmit,
+    trigger,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data, e) => {
-    e.target.reset();
-    console.log('Message submited: ' + JSON.stringify(data));
+  // const onSubmit = (data, e) => {
+  //   e.target.reset();
+  //   console.log('Message submited: ' + JSON.stringify(data));
+  // };
+
+  const onSubmit = async () => {
+    const isValid = await trigger();
+    //if not valid prevent page refresh
+    if (!isValid) {
+      e.preventDefault();
+    }
   };
 
   return (
     <>
-      <form className='contactform' onSubmit={handleSubmit(onSubmit)}>
+      <form
+        className='contactform'
+        // onSubmit={handleSubmit(onSubmit)}
+        onSubmit={onSubmit}
+        method='POST'
+        target='_blank'
+        action='https://formsubmit.co/712cad5ade0530064a9c927c1ca9ff56'
+      >
         <div className='row'>
           <div className='col-12 col-md-6'>
             <div className='form-group'>
