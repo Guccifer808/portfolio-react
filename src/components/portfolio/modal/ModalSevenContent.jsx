@@ -4,12 +4,12 @@ const ModalSevenContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Landing Page</h3>
+          <h3>Hotel Booking</h3>
           <div className='row open-sans-font'>
             <div className='col-12 col-sm-6 mb-2'>
               <i className='fa fa-file-text-o pr-2'></i>
               <span className='project-label'>Project </span>:{' '}
-              <span className='ft-wt-600 uppercase'>Landing Page Demo</span>
+              <span className='ft-wt-600 uppercase'>Hotel Booking</span>
             </div>
             {/* End .col */}
 
@@ -32,11 +32,11 @@ const ModalSevenContent = () => {
               <span className='project-label'>Preview </span>:{' '}
               <span className='ft-wt-600 uppercase'>
                 <a
-                  href='https://github.com/Guccifer808/landing-page-demo'
+                  href='https://hotel-reactjs.pages.dev/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  GitHub Repo
+                  Live Preview
                 </a>
               </span>
             </div>

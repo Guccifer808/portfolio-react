@@ -4,7 +4,7 @@ const ModaFourContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>React Dashboard Project</h3>
+          <h3>Fitness Landing Page</h3>
           <div className='row open-sans-font'>
             <div className='col-12 col-sm-6 mb-2'>
               <i className='fa fa-file-text-o pr-2'></i>

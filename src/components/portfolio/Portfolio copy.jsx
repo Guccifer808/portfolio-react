@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Tabs, TabPanel } from 'react-tabs';
 import Modal from 'react-modal';
 import ModalOneContent from './modal/ModalOneContent';
@@ -308,11 +308,11 @@ const Portfolio = () => {
               onClick={toggleModalSeven}
             >
               <img
-                src='img/projects/hotel-1.webp'
-                alt='hotel-booking-portolio'
+                src='img/projects/landing-demo-1.webp'
+                alt='landing-demo-portolio'
               />
-              <div className='hover-content-wrapper'>
-                <span className='content-title'> Hotel Booking</span>
+              <div className=' hover-content-wrapper'>
+                <span className='content-title'> Demo Landing Page</span>
               </div>
             </figure>
 

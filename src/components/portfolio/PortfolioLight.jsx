@@ -286,10 +286,10 @@ const PortfolioLight = () => {
         <figure className='direction-reveal__card' onClick={toggleModalSeven}>
           <img
             src='img/projects/landing-demo-1.webp'
-            alt='landing-demo-portolio'
+            alt='hotel-booking-portolio'
           />
           <div className=' direction-reveal__overlay direction-reveal__anim--enter'>
-            <span className='direction-reveal__title'>Demo Landing Page</span>
+            <span className='direction-reveal__title'>Hotel Booking</span>
           </div>
         </figure>
 
