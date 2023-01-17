@@ -2,7 +2,7 @@
 
 - Vite
 - React.js
-- React Router,
+- React Router, React Tabs, etc.
 - Formsubmit.co
 - SCSS
 
