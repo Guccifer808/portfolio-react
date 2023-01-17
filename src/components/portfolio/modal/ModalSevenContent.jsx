@@ -47,7 +47,7 @@ const ModalSevenContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src='img/projects/landing-demo-1.webp' alt='landing-demo' />
+        <img src='img/projects/hotel-1.webp' alt='hotel-booking' />
         {/* Main Project Content Ends */}
       </figure>
     </div>
