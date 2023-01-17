@@ -26,10 +26,8 @@
     "react-modal": "^3.13.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "^5.0.1",
-    "react-slick": "^0.28.1",
     "react-tabs": "^3.2.2",
     "react-transition-group": "^4.4.2",
-    "slick-carousel": "^1.8.1",
     "sort-by": "^0.0.2",
     "web-vitals": "^1.0.1"
   },
