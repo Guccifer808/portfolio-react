@@ -309,10 +309,10 @@ const Portfolio = () => {
             >
               <img
                 src='img/projects/landing-demo-1.webp'
-                alt='landing-demo-portolio'
+                alt='hotel-booking-portolio'
               />
               <div className=' hover-content-wrapper'>
-                <span className='content-title'> Demo Landing Page</span>
+                <span className='content-title'> Hotel Booking</span>
               </div>
             </figure>
 
