@@ -1,5 +1,5 @@
-import React, { useContext, useState } from 'react';
-import { Tabs, TabPanel } from 'react-tabs';
+import React, { useState } from 'react';
+import { Tabs } from 'react-tabs';
 import Modal from 'react-modal';
 import ModalOneContent from './modal/ModalOneContent';
 import ModalTwoContent from './modal/ModalTwoContent';
