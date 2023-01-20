@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useReducer, useState } from 'react';
 import { Tabs } from 'react-tabs';
 import Modal from 'react-modal';
 import ModalOneContent from './modal/ModalOneContent';
@@ -10,6 +10,7 @@ import ModalSixContent from './modal/ModalSixContent';
 import ModalSevenContent from './modal/ModalSevenContent';
 import ModalEightContent from './modal/ModalEightContent';
 import ModalNineContent from './modal/ModalNineContent';
+import useBoolean from '../hooks/useBoolean';
 
 const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +51,9 @@ const Portfolio = () => {
     setIsOpen9(!isOpen9);
   }
 
+  // - tried w this, but still need to have state for each of the modal othwerise it opens the same one modal content
+  // const [isOpen, { on: openModal, off: closeModal }] = useBoolean();
+
   return (
     <Tabs>
       {/* <TabList className='portfolio-tab-list'> </TabList> */}
@@ -57,7 +61,10 @@ const Portfolio = () => {
         {/* <TabPanel> */}
         <ul className='row grid justify-content-center'>
           <li data-aos='fade-right' data-aos-duration='1200' data-aos-delay='0'>
-            <figure onClick={toggleModalOne}>
+            <figure
+              // onClick={toggleModalOne}
+              onClick={toggleModalOne}
+            >
               <img src='img/projects/luxworld-1.webp' alt='luxworld-portolio' />
               <div className=' hover-content-wrapper'>
                 <span className='content-title'>
@@ -89,9 +96,7 @@ const Portfolio = () => {
             </Modal>
             {/* End  ModalOneContent */}
           </li>
-          {/* <!-- Portfolio Item Ends --> */}
-
-          {/* <!-- Portfolio Item Starts --> */}
+          {/* Portfolio Item Ends */}
           <li
             data-aos='fade-right'
             data-aos-duration='1200'
@@ -128,7 +133,6 @@ const Portfolio = () => {
             {/* End  ModalTwoContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             data-aos='fade-right'
@@ -169,7 +173,6 @@ const Portfolio = () => {
             {/* End  ModalThreeContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             className='direction-reveal'
@@ -214,7 +217,6 @@ const Portfolio = () => {
             {/* End  ModalFourContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             className='direction-reveal'
@@ -256,7 +258,6 @@ const Portfolio = () => {
             {/* End  ModalFiveContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             className='direction-reveal'
@@ -295,7 +296,6 @@ const Portfolio = () => {
             {/* End  ModalSixContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             className='direction-reveal'
@@ -340,7 +340,6 @@ const Portfolio = () => {
             {/* End  ModalSevenContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             className='direction-reveal'
@@ -382,7 +381,6 @@ const Portfolio = () => {
             {/* End  ModalEightContent */}
           </li>
           {/* <!-- Portfolio Item Ends --> */}
-
           {/* <!-- Portfolio Item Starts --> */}
           <li
             className='direction-reveal'
