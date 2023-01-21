@@ -51,7 +51,6 @@ const ModalSevenContent = () => {
         {/* Main Project Content Ends */}
       </figure>
     </div>
-    //  End .slideshow
   );
 };
 

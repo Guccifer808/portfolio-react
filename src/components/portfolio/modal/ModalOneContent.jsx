@@ -1,10 +1,12 @@
-const ModalOneContent = () => {
+const ModalOneContent = (props) => {
+  const { title } = props;
+
   return (
     <div className='slideshow'>
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Furnishing Website</h3>
+          <h3>{title}</h3>
           <div className='row open-sans-font'>
             <div className='col-12 col-sm-6 mb-2'>
               <i className='fa fa-file-text-o pr-2'></i>
@@ -53,7 +55,6 @@ const ModalOneContent = () => {
         {/* Main Project Content Ends */}
       </figure>
     </div>
-    //  End .slideshow
   );
 };
 

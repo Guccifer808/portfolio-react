@@ -51,7 +51,6 @@ const ModalNineContent = () => {
         {/* Main Project Content Ends */}
       </figure>
     </div>
-    //  End .slideshow
   );
 };
 

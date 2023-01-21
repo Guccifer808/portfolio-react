@@ -63,7 +63,6 @@ const ModalThreeContent = () => {
         {/* Main Project Content Ends */}
       </figure>
     </div>
-    //  End .slideshow
   );
 };
 

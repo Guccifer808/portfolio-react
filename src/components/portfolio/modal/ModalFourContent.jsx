@@ -51,7 +51,6 @@ const ModaFourContent = () => {
         {/* Main Project Content Ends */}
       </figure>
     </div>
-    //  End .slideshow
   );
 };
 
