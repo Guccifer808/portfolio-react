@@ -8,7 +8,7 @@ const experienceContent = [
   },
   {
     year: '2017 - 2018',
-    position: ' Transaction Risk Manager',
+    position: ' Tech Support',
     compnayName: 'Aurora Technologies',
     details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
         elit, tempor incididunt`,
