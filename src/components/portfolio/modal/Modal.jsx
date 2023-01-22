@@ -11,7 +11,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const Modal = ({ modalId, setGetModal }) => {
-  var settings = {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -22,11 +22,12 @@ const Modal = ({ modalId, setGetModal }) => {
   if (modalId === 1) {
     return (
       <div className='modal_portfolio '>
+        {/* overlay div to close modal w outside click */}
         <div
           className='modal__outside'
           onClick={() => setGetModal(false)}
         ></div>
-        <div></div>
+        {/* Modal content */}
         <div className='modal__content'>
           {PortfolioData.filter((item) => item.id === modalId).map((item) => {
             return (
@@ -73,6 +74,7 @@ const Modal = ({ modalId, setGetModal }) => {
                     );
                   })}
                 </div>
+                {/* Modal image and close button */}
                 <figure className='modal__img'>
                   <img src={item.image} alt='portfolio project' />
                 </figure>

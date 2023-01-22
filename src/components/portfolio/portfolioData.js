@@ -13,7 +13,6 @@ const PortfolioData = [
     id: 1,
     type: 'Furnishing Website Project',
     image: Image1,
-    tag: ['mockup'],
     delayAnimation: '0',
     modalDetails: [
       {
@@ -29,7 +28,7 @@ const PortfolioData = [
     id: 2,
     type: 'Pool Website',
     image: Image2,
-    tag: ['video'],
+
     delayAnimation: '100',
     modalDetails: [
       {
@@ -45,7 +44,7 @@ const PortfolioData = [
     id: 3,
     type: 'React Dashboard Project',
     image: Image3,
-    tag: [],
+
     delayAnimation: '200',
     modalDetails: [
       {
@@ -62,7 +61,7 @@ const PortfolioData = [
     id: 4,
     type: 'Fitness Landing Page',
     image: Image4,
-    tag: ['Fitness'],
+
     delayAnimation: '0',
     modalDetails: [
       {
@@ -78,7 +77,7 @@ const PortfolioData = [
     id: 5,
     type: 'YouTube Clone with API',
     image: Image5,
-    tag: ['logo'],
+
     delayAnimation: '100',
     modalDetails: [
       {
@@ -92,13 +91,13 @@ const PortfolioData = [
   },
   {
     id: 6,
-    type: 'Airbnb Clone with API',
+    type: 'Airbnb Clone',
     image: Image6,
-    tag: ['logo', 'mockup'],
+
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'Airbnb Clone with API',
+        project: 'Airbnb Clone',
         client: 'Pet Project',
         techStack: 'React.js, TailwindCSS',
         preview: 'GitHub Repo',
@@ -110,7 +109,7 @@ const PortfolioData = [
     id: 7,
     type: 'Hotel Booking',
     image: Image7,
-    tag: ['logo'],
+
     delayAnimation: '0',
     modalDetails: [
       {
@@ -126,7 +125,7 @@ const PortfolioData = [
     id: 8,
     type: 'Ecommerce MERN',
     image: Image8,
-    tag: ['graphic design'],
+
     delayAnimation: '100',
     modalDetails: [
       {
@@ -142,7 +141,7 @@ const PortfolioData = [
     id: 9,
     type: 'Kanban TypeScript',
     image: Image9,
-    tag: ['graphic design', 'mockup'],
+
     delayAnimation: '200',
     modalDetails: [
       {
