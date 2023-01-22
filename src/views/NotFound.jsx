@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import image404 from '../assets/img/404.jpg';
 
 const NotFound = () => {
   return (
@@ -6,7 +7,7 @@ const NotFound = () => {
       <div
         className='hero bg-image'
         style={{
-          backgroundImage: `url(${'img/404.jpg'})`,
+          backgroundImage: `url(${image404})`,
         }}
       >
         <div className='content'>

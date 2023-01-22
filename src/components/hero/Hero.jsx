@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import Index from '../../components/about/index';
+import CloseImg from '../../assets/img/cancel.svg';
 
 const heroContent = {
   heroImage: 'img/hero/dark.jpg',
@@ -64,7 +65,7 @@ const Hero = () => {
       >
         <div>
           <button className='close-modal' onClick={toggleModalOne}>
-            <img src='/img/cancel.svg' alt='close icon' />
+            <img src={CloseImg} alt='close icon' />
           </button>
           {/* End close icon */}
 
