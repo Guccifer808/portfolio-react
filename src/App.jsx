@@ -8,7 +8,9 @@ import AnimatedCursor from 'react-animated-cursor';
 const App = () => {
   // this for animation
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 1200,
+    });
   }, []);
 
   return (

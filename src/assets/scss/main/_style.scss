@@ -1,35 +1,3 @@
-/*------------------------------------------------------------------
-[Table of contents]
-	+ General
-	    - Miscellaneous
-		- Light Body
-		- Buttons
-		- Page Title
-	+ Header
-		- Desktop Navigation
-		- Mobile Navigation
-	+ Pages
-		- Homepage
-		+ About
-		    - Personal Info List
-			- Box Stats
-			- Resume
-			- Skills
-		+ Portfolio
-		    - Grid
-		    + Slideshow
-                - Embedded Videos
-                - Carousel
-                - Navigation
-        + Contact
-            - Left Side
-            - Contact Form
-		+ Blog
-            - Latest Posts
-            - Pagination
-	- Responsive Design Styles
--------------------------------------------------------------------*/
-
 /* [ GENERAL ] */
 /*================================================== */
 
@@ -39,7 +7,9 @@ html {
   overflow-x: hidden;
   height: 100%;
 }
-
+:root {
+  --main-primary-color: #ffb400;
+}
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -80,7 +50,10 @@ hr.separator {
 .pb-50 {
   padding-bottom: 50px;
 }
-
+a,
+button {
+  cursor: pointer !important;
+}
 .no-transform {
   transform: none !important;
 }
@@ -179,6 +152,13 @@ body.light .contact .contactform textarea {
   border: 1px solid #ddd;
   color: #666;
 }
+body.light .contact .contactform input[type='text']:focus,
+body.light .contact .contactform input[type='email']:focus,
+body.light .contact .contactform textarea:focus {
+  background-color: #fff;
+  border: 1px solid var(--main-primary-color);
+  color: #666;
+}
 
 body.light .contact ul.social li a {
   color: #666;
@@ -186,18 +166,29 @@ body.light .contact ul.social li a {
 }
 
 body.light .contact ul.social li a:hover {
+  background: var(--main-primary-color);
   color: #fff;
 }
 
 body.light .blog .post-content {
-  background-color: #f2f2f2;
+  background-color: #f5f8fc;
+}
+body.light .quotebox .icon img {
+  filter: invert(0);
 }
 
 body.light .blog .post-content .entry-header h3,
 body.light .blog .entry-content p {
-  color: #666;
+  color: #454545;
 }
-
+body.light .blog .post-content .entry-header h3 {
+  transition: 0.3s;
+}
+body.light .blog .post-container:hover {
+  h3 {
+    color: var(--main-primary-color);
+  }
+}
 body.light .blog .page-link {
   color: #666;
   background-color: #eee;
@@ -218,6 +209,12 @@ body.light hr.separator {
 
 body.light .header ul.icon-menu li.icon-box {
   background-color: #eee;
+  &:hover {
+    background: var(--main-primary-color);
+  }
+  &.react-tabs__tab--selected {
+    background: var(--main-primary-color);
+  }
 }
 
 body.light .header ul.icon-menu li.icon-box i {
@@ -436,12 +433,12 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   top: 50%;
   text-transform: uppercase;
   font-weight: 800;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.07);
+  @media (max-width: 767px) {
+    font-size: 45px;
+    transform: translateY(-20%);
+  }
 }
 
 /* [ HEADER ] */
@@ -466,7 +463,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   transition: opacity 0.3s;
   -webkit-transition: opacity 0.3s;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 2;
 
   @media (max-width: 991px) {
     left: 0;
@@ -478,6 +475,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     display: block;
     background: #2b2a2a;
     padding: 8px;
+    z-index: 10;
 
     ul.icon-menu {
       display: flex;
@@ -527,7 +525,14 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   background: #2b2a2a;
   cursor: pointer;
 }
-
+.header ul.icon-menu li.icon-box,
+.portfolio-tab-list li {
+  &:hover,
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
 .header ul.icon-menu li.icon-box i {
   color: #ddd;
   font-size: 19px;
@@ -1172,6 +1177,8 @@ body.light .contact .custom-span-contact a {
 .blog .post-container {
   display: block;
   cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .blog .post-content {
@@ -1194,8 +1201,8 @@ body.light .contact .custom-span-contact a {
   border-radius: 5px 5px 0 0;
   cursor: pointer;
   @media screen and (min-width: 1300px) {
-    background: #ddd;
-    min-height: 233px;
+    background: #555;
+    min-height: 227px;
   }
   @media screen and (max-width: 450px) {
     min-height: 218px;
@@ -1224,6 +1231,14 @@ body.light .contact .custom-span-contact a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+  transition: 0.3s;
+}
+.blog .post-container {
+  &:hover {
+    h3 {
+      color: var(--main-primary-color);
+    }
+  }
 }
 
 /* pagination */
@@ -1648,10 +1663,6 @@ body.light .contact .custom-span-contact a {
     font-size: 35px !important;
   }
 
-  .title-bg {
-    display: none;
-  }
-
   .custom-title {
     font-size: 21px;
   }
@@ -1706,7 +1717,7 @@ body.light .contact .custom-span-contact a {
   }
 
   .portfolio .slideshow figcaption h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .portfolio .slideshow nav span.nav-prev,
@@ -1862,12 +1873,13 @@ button:focus {
 .none #showSwitcher {
   display: none;
 }
+
 // this css fixed with yellow color other color does not work
 .portfolio .slideshow figcaption h3,
 .portfolio .slideshow a,
 .title-section h1 span,
 .blog-post .meta i {
-  color: #ffb400;
+  color: var(--main-primary-color);
 }
 .box_inner.about {
   .pie,
@@ -1922,7 +1934,7 @@ button:focus {
   .c100.p98 .fill,
   .c100.p99 .fill,
   .c100.p100 .fill {
-    border: 0.08em solid #ffb400;
+    border: 0.08em solid var(--main-primary-color);
   }
 }
 .portfolio-tab-list {
@@ -1931,6 +1943,10 @@ button:focus {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 10px !important;
+  @media (max-width: 767px) {
+    justify-content: flex-start;
+    padding-left: 0;
+  }
   li {
     margin: 15px;
     margin-top: 0;
@@ -1939,7 +1955,7 @@ button:focus {
     transition: 0.3s;
     &:hover,
     &.react-tabs__tab--selected {
-      color: #ffb400;
+      color: var(--main-primary-color);
     }
   }
 }
@@ -1982,7 +1998,7 @@ button:focus {
     &::before {
       content: '';
       position: absolute;
-      background: #ffb400;
+      background: var(--main-primary-color);
       width: 100%;
       height: 100%;
       left: 0;
@@ -2025,7 +2041,9 @@ button:focus {
   }
   a {
     color: #fff;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 30px;
     padding: 10px;
     cursor: pointer !important;
