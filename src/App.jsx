@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Routez from './router/Routez';
+import Routing from './router/Routing';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,7 +23,7 @@ const App = () => {
         innerScale={0.7}
         outerScale={1.2}
       />
-      <Routez />
+      <Routing />
     </div>
   );
 };

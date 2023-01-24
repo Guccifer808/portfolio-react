@@ -1,12 +1,12 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Hero from '../../components/hero/Hero';
-import Index from '../../components/about/index';
-import Address from '../../components/Address';
-import Portfolio from '../../components/portfolio/Portfolio';
-import Contact from '../../components/Contact';
-import Social from '../../components/Social';
-import SwitchDark from '../../components/themeSwitcher/SwitchDark';
+import Hero from '../components/hero/Hero';
+import Index from '../components/about/index';
+import Address from '../components/Address';
+import Portfolio from '../components/portfolio/Portfolio';
+import Contact from '../components/Contact';
+import Social from '../components/Social';
+import SwitchDark from '../components/themeSwitcher/SwitchDark';
 const menuItem = [
   { icon: 'fa-home', menuName: 'Home' },
   { icon: 'fa-user', menuName: 'About' },

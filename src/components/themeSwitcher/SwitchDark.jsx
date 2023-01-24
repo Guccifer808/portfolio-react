@@ -4,17 +4,16 @@ import lightImage from '../../assets/img/sun.png';
 const SwitchDark = () => {
   const [isDark, setIsDark] = useState(false);
 
-  const handleLabelClick = () => {
+  const theme = isDark ? 'dark' : 'light';
+
+  const handleThemeSwitch = () => {
+    localStorage.setItem('theme-color', theme);
+    document.querySelector('body').classList.add(theme);
+
     if (isDark) {
-      localStorage.setItem('theme-color', 'dark');
-      document.querySelector('body').classList.add('dark');
       document.querySelector('body').classList.remove('light');
-      document.querySelector('body').classList.remove('green');
       setIsDark(false);
     } else {
-      localStorage.setItem('theme-color', 'light');
-      document.querySelector('body').classList.add('light');
-      document.querySelector('body').classList.add('green');
       document.querySelector('body').classList.remove('dark');
       setIsDark(true);
     }
@@ -24,7 +23,7 @@ const SwitchDark = () => {
     <label className={`theme-switcher-label d-flex  ${isDark ? 'active' : ''}`}>
       <input
         type='checkbox'
-        onClick={handleLabelClick}
+        onClick={handleThemeSwitch}
         className='theme-switcher'
       />
       <div className='switch-handle'>

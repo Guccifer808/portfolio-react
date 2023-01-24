@@ -1,9 +1,8 @@
-import React from 'react';
-import HomeDark from '../views/all-home-version/HomeDark';
-import NotFound from '../views/NotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomeDark from '../views/HomeDark';
+import NotFound from '../views/NotFound';
 
-const Routez = () => {
+const Routing = () => {
   return (
     <>
       <Router>
@@ -16,4 +15,4 @@ const Routez = () => {
   );
 };
 
-export default Routez;
+export default Routing;

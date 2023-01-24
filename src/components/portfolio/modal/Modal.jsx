@@ -654,6 +654,7 @@ const Modal = ({ modalId, setGetModal }) => {
                     );
                   })}
                 </div>
+
                 <figure className='modal__img'>
                   <Slider {...settings}>
                     <div>

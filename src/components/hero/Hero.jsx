@@ -3,6 +3,9 @@ import Modal from 'react-modal';
 import Index from '../../components/about/index';
 import CloseImg from '../../assets/img/cancel.svg';
 
+//rename to home?
+//
+
 const heroContent = {
   heroImage: 'img/hero/dark.jpg',
   heroMobileImage: 'img-mobile',
@@ -17,6 +20,8 @@ const heroContent = {
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  //rename func
   function toggleModalOne() {
     setIsOpen(!isOpen);
   }

@@ -11,14 +11,16 @@ const personalInfoContent = [
   { meta: 'langages', metaInfo: 'English, Ukrainian, Russian' },
 ];
 
+// val -> value
+
 const PersonalInfo = () => {
   return (
     <ul className='about-list list-unstyled open-sans-font'>
-      {personalInfoContent.map((val, i) => (
+      {personalInfoContent.map((value, i) => (
         <li key={i}>
-          <span className='title'>{val.meta}: </span>
+          <span className='title'>{value.meta}: </span>
           <span className='value d-block d-sm-inline-block d-lg-block d-xl-inline-block'>
-            {val.metaInfo}
+            {value.metaInfo}
           </span>
         </li>
       ))}
