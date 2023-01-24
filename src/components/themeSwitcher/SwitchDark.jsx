@@ -9,10 +9,12 @@ const SwitchDark = () => {
       localStorage.setItem('theme-color', 'dark');
       document.querySelector('body').classList.add('dark');
       document.querySelector('body').classList.remove('light');
+      document.querySelector('body').classList.remove('green');
       setIsDark(false);
     } else {
       localStorage.setItem('theme-color', 'light');
       document.querySelector('body').classList.add('light');
+      document.querySelector('body').classList.add('green');
       document.querySelector('body').classList.remove('dark');
       setIsDark(true);
     }

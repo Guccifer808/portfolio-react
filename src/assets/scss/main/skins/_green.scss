@@ -1,5 +1,6 @@
 /* =================================================================== */
 /* GREEN #72b626
+/* DOES NOT WORK ATM
 ====================================================================== */
 .green {
   .home h1,
@@ -39,11 +40,11 @@
   .button-icon {
     background-color: #72b626;
   }
-  .contact .contactform input[type="text"]:focus,
-  .contact .contactform input[type="email"]:focus,
+  .contact .contactform input[type='text']:focus,
+  .contact .contactform input[type='email']:focus,
   .contact .contactform textarea:focus,
-  body.light.contact .contactform input[type="text"]:focus,
-  body.light.contact .contactform input[type="email"]:focus,
+  body.light.contact .contactform input[type='text']:focus,
+  body.light.contact .contactform input[type='email']:focus,
   body.light.contact .contactform textarea:focus,
   .blog .page-item.active .page-link,
   .blog .page-link:hover,
