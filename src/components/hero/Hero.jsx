@@ -21,8 +21,7 @@ const heroContent = {
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  //rename func
-  function toggleModalOne() {
+  function toggleModal() {
     setIsOpen(!isOpen);
   }
 
@@ -50,7 +49,7 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className='open-sans-font'>{heroContent.heroDescriptions}</p>
-            <button className='button' onClick={toggleModalOne}>
+            <button className='button' onClick={toggleModal}>
               <span className='button-text'>{heroContent.heroBtn}</span>
               <span className='button-icon fa fa-arrow-right'></span>
             </button>
@@ -62,14 +61,14 @@ const Hero = () => {
       {/* Start Modal for About More */}
       <Modal
         isOpen={isOpen}
-        onRequestClose={toggleModalOne}
+        onRequestClose={toggleModal}
         contentLabel='My dialog'
         className='custom-modal dark hero'
         overlayClassName='custom-overlay dark'
         closeTimeoutMS={500}
       >
         <div>
-          <button className='close-modal' onClick={toggleModalOne}>
+          <button className='close-modal' onClick={toggleModal}>
             <img src={CloseImg} alt='close icon' />
           </button>
           {/* End close icon */}
