@@ -45,7 +45,7 @@ const Portfolio = () => {
           </div>
         </Tabs>
       </div>
-      {getModal && <Modal modalId={modalId} setGetModal={setGetModal} />}{' '}
+      {getModal && <Modal modalId={modalId} setGetModal={setGetModal} />}
     </>
   );
 };
