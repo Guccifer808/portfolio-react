@@ -1,9 +1,12 @@
+import { useTranslation } from 'react-i18next';
+
 const Address = () => {
+  const { t } = useTranslation();
   return (
     <>
       <p className='open-sans-font custom-span-contact position-relative'>
         <i className='fa fa-map position-absolute'></i>
-        <span className='d-block'>Address</span>
+        <span className='d-block'>{t('address')}</span>
         <a
           href='https://www.google.com/maps/place/Kyiv,+02000/data=!4m2!3m1!1s0x40d4cf4ee15a4505:0x764931d2170146fe?sa=X&ved=2ahUKEwjk8O3wnKH7AhWQ6CoKHdSTDLgQ8gF6BAgTEAE'
           target='_blank'
