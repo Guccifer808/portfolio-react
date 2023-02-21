@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import Index from '../../components/about/index';
 import CloseImg from '../../assets/img/cancel.svg';
+import heroImg from '../../assets/img/hero/hero-1.png';
 
 //rename to home?
 //
@@ -30,17 +31,14 @@ const Hero = () => {
       <div className='row home-details-container align-items-center'>
         <div
           className='col-lg-4 bg position-fixed d-none d-lg-block'
-          // style={{
-          //   backgroundImage: `url(${
-          //     // process.env.PUBLIC_URL +
-          //     heroContent.heroImage
-          //   })`,
-          // }}
+          style={{
+            backgroundImage: `url(${heroImg}`,
+          }}
         ></div>
         <div className='col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start'>
           <div>
             <img
-              // src={`img/hero/${heroContent.heroMobileImage}.jpg`}
+              src={heroImg}
               className='img-fluid main-img-mobile d-sm-block d-lg-none'
               alt='hero'
             />

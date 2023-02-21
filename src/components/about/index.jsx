@@ -3,6 +3,7 @@ import Education from './Education';
 import Experience from './Experience';
 import PersonalInfo from './PersonalInfo';
 import Skills from './Skills';
+import heroImg from '../../assets/img/hero/hero-1.png';
 
 const index = () => {
   return (
@@ -22,7 +23,7 @@ const index = () => {
 
               <div className='col-12 d-block d-sm-none'>
                 <img
-                  // src="img/hero/img-mobile.jpg"
+                  src={heroImg}
                   className='img-fluid main-img-mobile'
                   alt='about avatar'
                 />
