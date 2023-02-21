@@ -3,9 +3,9 @@ import Image2 from '../../assets/img/projects/aquaceh-1.webp';
 import Image3 from '../../assets/img/projects/react-dashboard-1.webp';
 import Image4 from '../../assets/img/projects/fitness-ts-1.webp';
 import Image5 from '../../assets/img/projects/youtube-1.webp';
-import Image6 from '../../assets/img/projects/airbnb-1.webp';
+import Image6 from '../../assets/img/projects/img-filter-1.webp';
 import Image7 from '../../assets/img/projects/hotel-1.webp';
-import Image8 from '../../assets/img/projects/ecom-mern.webp';
+import Image8 from '../../assets/img/projects/nightchat-1.webp';
 import Image9 from '../../assets/img/projects/kanban-1.webp';
 
 const PortfolioData = [
@@ -91,17 +91,17 @@ const PortfolioData = [
   },
   {
     id: 6,
-    type: 'Airbnb Clone',
+    type: 'Image Filter App',
     image: Image6,
 
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'Airbnb Clone',
+        project: 'Image Filter App',
         client: 'Pet Project',
-        techStack: 'React.js, TailwindCSS',
-        preview: 'GitHub Repo',
-        link: 'https://github.com/Guccifer808/airbnb',
+        techStack: 'React.js, Vite, Material UI',
+        preview: 'Live Preview',
+        link: 'https://image-filter-app.pages.dev/',
       },
     ],
   },
@@ -123,17 +123,17 @@ const PortfolioData = [
   },
   {
     id: 8,
-    type: 'Ecommerce MERN',
+    type: 'NightChat App Google Auth',
     image: Image8,
 
     delayAnimation: '100',
     modalDetails: [
       {
-        project: 'Ecommerce MERN',
+        project: 'NightChat',
         client: 'Pet Project',
-        techStack: 'MERN Stack',
-        preview: 'GitHub Repo',
-        link: 'https://github.com/Guccifer808/ecommerce-mern-full',
+        techStack: 'Firebase, DaisyUI, Vite, Tailwind CSS',
+        preview: 'Live Preview',
+        link: 'https://livechat-gauth.pages.dev/',
       },
     ],
   },
