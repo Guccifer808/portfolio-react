@@ -2,7 +2,7 @@ import Image1 from '../../assets/img/projects/luxworld-1.webp';
 import Image2 from '../../assets/img/projects/aquaceh-1.webp';
 import Image3 from '../../assets/img/projects/react-dashboard-1.webp';
 import Image4 from '../../assets/img/projects/fitness-ts-1.webp';
-import Image5 from '../../assets/img/projects/youtube-1.webp';
+import Image5 from '../../assets/img/projects/dashboard-nextjs-1.webp';
 import Image6 from '../../assets/img/projects/img-filter-1.webp';
 import Image7 from '../../assets/img/projects/hotel-1.webp';
 import Image8 from '../../assets/img/projects/nightchat-1.webp';
@@ -52,8 +52,8 @@ const PortfolioData = [
         client: 'Pet Project',
         techStack:
           'React.js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, Data Grid',
-        preview: 'Github Repo',
-        link: 'https://github.com/Guccifer808/React-admin-dashboard-v1',
+        preview: 'Live Preview',
+        link: 'https://react-admin-dashboard-v1.vercel.app/',
       },
     ],
   },
@@ -67,7 +67,7 @@ const PortfolioData = [
       {
         project: 'Fitness Landing Page',
         client: 'Pet Project',
-        techStack: 'React.js, TypeScript',
+        techStack: 'React.js, TypeScript, TailwindCSS, Prettier',
         preview: 'Live Preview',
         link: 'https://fitness-ts.pages.dev/',
       },
@@ -75,17 +75,17 @@ const PortfolioData = [
   },
   {
     id: 5,
-    type: 'YouTube Clone with API',
+    type: 'Dashboard with Next.js',
     image: Image5,
 
     delayAnimation: '100',
     modalDetails: [
       {
-        project: 'YouTube Clone with API',
+        project: 'Dashboard with Next.js',
         client: 'Pet Project',
-        techStack: 'React.js, TypeScript, TailwindCSS',
-        preview: 'GitHub Repo',
-        link: 'https://github.com/Guccifer808/youtube',
+        techStack: 'Next.js, Chart.js, TailwindCSS, Prettier',
+        preview: 'Live Preview',
+        link: 'https://dashboard-nextjs-kappa.vercel.app/',
       },
     ],
   },
