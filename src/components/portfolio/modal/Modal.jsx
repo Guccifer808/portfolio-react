@@ -49,6 +49,18 @@ const Modal = ({ modalId, setGetModal }) => {
                         >
                           {details.preview}
                         </a>
+                        <div className='col-12 col-sm-6 mb-2'>
+                          <i className='fa fa-external-link pr-2'></i>
+                          Github :{' '}
+                          <a
+                            className='preview-link'
+                            target='_blank'
+                            rel='noopener noreferrer nofollow'
+                            href={details.githubLink}
+                          >
+                            {details.github}
+                          </a>
+                        </div>
                       </div>
                     </div>
                   );
