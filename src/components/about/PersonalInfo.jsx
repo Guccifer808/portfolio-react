@@ -6,7 +6,7 @@ const personalInfoContent = [
   { meta: 'Freelance', metaInfo: 'Available' },
   { meta: 'Address', metaInfo: 'Kyiv' },
   { meta: 'phone', metaInfo: '+380734777877' },
-  { meta: 'Email', metaInfo: 'you@mail.com' },
+  { meta: 'Email', metaInfo: 'contact@guccifer.site' },
   { meta: 'Skype', metaInfo: ' omgro1ex' },
   { meta: 'langages', metaInfo: 'English, Ukrainian, Russian' },
 ];
