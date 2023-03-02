@@ -1,12 +1,13 @@
 import Image1 from '../../assets/img/projects/luxworld-1.webp';
 import Image2 from '../../assets/img/projects/aquaceh-1.webp';
-import Image3 from '../../assets/img/projects/react-dashboard-1.webp';
-import Image4 from '../../assets/img/projects/fitness-ts-1.webp';
-import Image5 from '../../assets/img/projects/dashboard-nextjs-1.webp';
-import Image6 from '../../assets/img/projects/img-filter-1.webp';
-import Image7 from '../../assets/img/projects/hotel-1.webp';
-import Image8 from '../../assets/img/projects/nightchat-1.webp';
-import Image9 from '../../assets/img/projects/kanban-1.webp';
+import Image3 from '../../assets/img/projects/react-dashboard-1.png';
+import Image4 from '../../assets/img/projects/fitness-ts-1.png';
+import Image5 from '../../assets/img/projects/dashboard-nextjs-1.png';
+import Image6 from '../../assets/img/projects/img-filter-1.png';
+import Image7 from '../../assets/img/projects/hotel-1.jpeg';
+import Image8 from '../../assets/img/projects/nightchat-1.jpeg';
+import Image9 from '../../assets/img/projects/kanban-ts-1.png';
+import Image10 from '../../assets/img/projects/api-list-1.png';
 
 const PortfolioData = [
   {
@@ -164,6 +165,24 @@ const PortfolioData = [
         link: 'https://kanban-ts.pages.dev/',
         github: 'Github',
         githubLink: 'https://github.com/Guccifer808/Kanban-ts',
+      },
+    ],
+  },
+  {
+    id: 10,
+    type: 'API-list TypeScript',
+    image: Image10,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'API-list TypeScript',
+        client: 'Pet Project',
+        techStack: 'React.js, TypeScript, Axios, TailwindCSS, Public APIs',
+        preview: 'Live Preview',
+        link: 'https://api-list-public.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/api-list',
       },
     ],
   },

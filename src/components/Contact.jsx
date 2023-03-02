@@ -1,36 +1,30 @@
+import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 
 const Contact = () => {
   const {
     register,
-    // handleSubmit,
-    trigger,
+    handleSubmit,
     formState: { errors },
   } = useForm();
 
-  // const onSubmit = (data, e) => {
-  //   e.target.reset();
-  //   console.log('Message submited: ' + JSON.stringify(data));
-  // };
-
-  const onSubmit = async () => {
-    const isValid = await trigger();
-    //if not valid prevent page refresh
-    if (!isValid) {
-      e.preventDefault();
-    }
+  const onSubmit = (formData, e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
     <>
-      <form
-        className='contactform'
-        // onSubmit={handleSubmit(onSubmit)}
-        onSubmit={onSubmit}
-        method='POST'
-        target='_blank'
-        action='https://formsubmit.co/712cad5ade0530064a9c927c1ca9ff56'
-      >
+      <form className='contactform' onSubmit={handleSubmit(onSubmit)}>
         <div className='row'>
           <div className='col-12 col-md-6'>
             <div className='form-group'>
