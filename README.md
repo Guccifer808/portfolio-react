@@ -6,4 +6,4 @@
 - Formsubmit.co
 - SASS
 
-[Deployed](https://portfolio-react-72n.pages.dev/)
+[Deployed](https://guccifer.site/)
