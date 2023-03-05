@@ -1,8 +1,6 @@
 import React from 'react';
 import CloseImg from '../../../assets/img/cancel.svg';
 import PortfolioData from '../portfolioData';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 const Modal = ({ modalId, setGetModal }) => {
   return (
