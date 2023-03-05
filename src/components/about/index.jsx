@@ -4,6 +4,7 @@ import Experience from './Experience';
 import PersonalInfo from './PersonalInfo';
 import Skills from './Skills';
 import heroImg from '../../assets/img/hero/hero-1.png';
+import withScrollToTop from '../../utils/WithScrollToTop';
 
 const index = () => {
   return (
@@ -93,4 +94,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default withScrollToTop(index);

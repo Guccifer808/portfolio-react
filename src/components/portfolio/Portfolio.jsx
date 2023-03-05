@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Tabs, TabPanel } from 'react-tabs';
 import PortfolioData from './portfolioData';
 import Modal from './modal/Modal';
-
+import withScrollToTop from '../../utils/WithScrollToTop';
 const Portfolio = () => {
   const [getModal, setGetModal] = useState(false);
   const [modalId, setModalId] = useState(1);
@@ -50,4 +50,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default withScrollToTop(Portfolio);
