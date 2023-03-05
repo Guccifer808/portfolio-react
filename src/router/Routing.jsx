@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomeDark from '../views/HomeDark';
+import Home from '../views/Home';
 import NotFound from '../views/NotFound';
 
 const Routing = () => {
@@ -7,7 +7,7 @@ const Routing = () => {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<HomeDark />} />
+          <Route path='/' element={<Home />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
