@@ -4,21 +4,12 @@ import lightImage from '../../assets/img/sun.png';
 const SwitchDark = () => {
   const [isDark, setIsDark] = useState(false);
 
-  const theme = isDark ? 'dark' : 'light';
-
   const handleThemeSwitch = () => {
-    localStorage.setItem('theme-color', theme);
-    document.querySelector('body').classList.add(theme);
-
-    if (isDark) {
-      document.querySelector('body').classList.remove('light');
-      setIsDark(false);
-    } else {
-      document.querySelector('body').classList.remove('dark');
-      setIsDark(true);
-    }
+    setIsDark(!isDark);
+    document.querySelector('body').classList.toggle('dark', isDark);
+    document.querySelector('body').classList.toggle('light', !isDark);
+    localStorage.setItem('theme-color', isDark ? 'light' : 'dark');
   };
-
   return (
     <label className={`theme-switcher-label d-flex  ${isDark ? 'active' : ''}`}>
       <input
