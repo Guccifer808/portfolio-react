@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Tabs, TabPanel } from 'react-tabs';
 import PortfolioData from './portfolioData';
 import Modal from './modal/Modal';
