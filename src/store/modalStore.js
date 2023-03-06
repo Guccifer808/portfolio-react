@@ -1,4 +1,4 @@
-import create from 'zustand';
+import { create } from 'zustand';
 import { useStore } from 'zustand';
 
 const useModalStore = create((set) => ({
