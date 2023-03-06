@@ -2,10 +2,10 @@ import React from 'react';
 import CloseImg from '../../../assets/img/cancel.svg';
 import PortfolioData from '../portfolioData';
 
-const Modal = ({ modalId, setGetModal }) => {
+const Modal = ({ modalId, toggleModal }) => {
   return (
     <div className='modal_portfolio'>
-      <div className='modal__outside' onClick={() => setGetModal(false)}></div>
+      <div className='modal__outside' onClick={() => toggleModal()}></div>
       <div className='modal__content'>
         {PortfolioData.filter((item) => item.id === modalId).map((item) => {
           return (

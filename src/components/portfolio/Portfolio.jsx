@@ -3,13 +3,14 @@ import { Tabs, TabPanel } from 'react-tabs';
 import PortfolioData from './portfolioData';
 import Modal from './modal/Modal';
 import withScrollToTop from '../../utils/WithScrollToTop';
+import useModalStore from '../../store/modalStore';
+
 const Portfolio = () => {
-  const [getModal, setGetModal] = useState(false);
-  const [modalId, setModalId] = useState(1);
+  const { getModal, modalId, setModalId, toggleModal } = useModalStore();
 
   const handleModal = (id) => {
-    setGetModal(true);
     setModalId(id);
+    toggleModal();
   };
 
   return (
@@ -45,7 +46,7 @@ const Portfolio = () => {
           </div>
         </Tabs>
       </div>
-      {getModal && <Modal modalId={modalId} setGetModal={setGetModal} />}
+      {getModal && <Modal modalId={modalId} toggleModal={toggleModal} />}
     </>
   );
 };
