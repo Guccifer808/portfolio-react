@@ -37,6 +37,7 @@ const Hero = () => {
         ></div>
         <div className='col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start'>
           <div>
+            {/* Disabled img on mobile */}
             <img
               src={heroImg}
               className='img-fluid main-img-mobile d-sm-block d-lg-none'
