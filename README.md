@@ -3,7 +3,7 @@
 - Vite
 - React.js
 - React Router, React Tabs, React Hook Form, Slick Carousel etc.
-- Formsubmit.co
+- EmailJS
 - SASS
 
 [Deployed](https://guccifer.site/)
