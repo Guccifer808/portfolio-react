@@ -105,7 +105,10 @@ const Contact = () => {
           {/* End .col */}
 
           <div className='col-12'>
-            <ReCAPTCHA sitekey='6LfDUuUkAAAAANKvGjvxb8Tmo-Fi7fZQvSVY-u-Q' />
+            <ReCAPTCHA
+              sitekey='6Ld5WeUkAAAAAPQdBYMEhzad4fzlwiTO2z2YRlkf'
+              className='captcha'
+            />
             <button type='submit' className='button'>
               <span className='button-text'>Send Message</span>
               <span className='button-icon fa fa-send'></span>
