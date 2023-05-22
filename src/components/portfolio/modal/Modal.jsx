@@ -70,10 +70,7 @@ const Modal = ({ modalId, toggleModal }) => {
                 <img src={item.image} alt='portfolio project' />
               </figure>
 
-              <button
-                className='close-modal'
-                onClick={() => setGetModal(false)}
-              >
+              <button className='close-modal' onClick={() => toggleModal()}>
                 <img src={CloseImg} alt='portfolio project' />
               </button>
             </div>
