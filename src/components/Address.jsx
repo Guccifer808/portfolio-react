@@ -12,7 +12,7 @@ const Address = () => {
         </a>
       </ContactItem>
       <ContactItem iconClass='fa-envelope-open' title='Mail me'>
-        <a href={emailLink}>{emailLink}</a>
+        <a href={emailLink}>contact@guccifer.site</a>
       </ContactItem>
       <ContactItem iconClass='fa-phone-square' title='Call me'>
         <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
