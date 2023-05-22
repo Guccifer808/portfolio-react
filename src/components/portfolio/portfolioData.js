@@ -5,9 +5,13 @@ import Image4 from '../../assets/img/projects/fitness-ts-1.png';
 import Image5 from '../../assets/img/projects/dashboard-nextjs-1.png';
 import Image6 from '../../assets/img/projects/img-filter-1.png';
 import Image7 from '../../assets/img/projects/hotel-1.jpeg';
-import Image8 from '../../assets/img/projects/nightchat-1.jpeg';
+import Image8 from '../../assets/img/projects/nightchat-1.webp';
 import Image9 from '../../assets/img/projects/kanban-ts-1.png';
 import Image10 from '../../assets/img/projects/api-list-1.png';
+import Image11 from '../../assets/img/projects/3d-phonecases.webp';
+import Image12 from '../../assets/img/projects/vortex.webp';
+import Image13 from '../../assets/img/projects/bcard.webp';
+import Image14 from '../../assets/img/projects/firebase-crud.webp';
 
 const PortfolioData = [
   {
@@ -183,6 +187,79 @@ const PortfolioData = [
         link: 'https://api-list-public.vercel.app/',
         github: 'Github',
         githubLink: 'https://github.com/Guccifer808/api-list',
+      },
+    ],
+  },
+  {
+    id: 11,
+    type: 'three.js 3d iPhone Case Builder',
+    image: Image11,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: '3d iPhone Case Builder',
+        client: 'Pet Project',
+        techStack: 'React.js, three.js, TailwindCSS, Framer-motion',
+        preview: 'Live Preview',
+        link: 'https://3d-phonecases.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/3d-phonecases',
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: 'SaaS Landing with Dashboard',
+    image: Image12,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'VorteX SaaS with Login and Dashboard',
+        client: 'Pet Project',
+        techStack:
+          'React.js, TypeScript, TailwindCSS, Framer-motion, Anchor-link, Firebase, Email.js',
+        preview: 'Live Preview',
+        link: 'https://software-landing-one.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/software-landing',
+      },
+    ],
+  },
+  {
+    id: 13,
+    type: 'Business Card Generator',
+    image: Image13,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Business Card Generator with T3 stack',
+        client: 'Pet Project',
+        techStack: 'Next.js, TypeScript, TailwindCSS, trpc, zod, prisma',
+        preview: 'Live Preview',
+        link: 'https://bcard-five.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/bcard',
+      },
+    ],
+  },
+  {
+    id: 14,
+    type: 'Firebase CRUD Todo',
+    image: Image14,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Todo CRUD add with Login',
+        client: 'Pet Project',
+        techStack: 'Next.js, TailwindCSS, Firebase',
+        preview: 'Live Preview',
+        link: 'https://to-do-crud-nextjs.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/ToDoCRUD-nextjs',
       },
     ],
   },
