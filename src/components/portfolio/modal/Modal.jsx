@@ -67,7 +67,7 @@ const Modal = ({ modalId, toggleModal }) => {
                 })}
               </div>
               <figure className='modal__img'>
-                <img src={item.image} alt='portfolio project' />
+                <img src={item.image} alt='portfolio project' loading='lazy' />
               </figure>
 
               <button className='close-modal' onClick={() => toggleModal()}>

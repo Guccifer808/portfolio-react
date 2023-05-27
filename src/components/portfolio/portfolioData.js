@@ -12,6 +12,7 @@ import Image11 from '../../assets/img/projects/3d-phonecases.webp';
 import Image12 from '../../assets/img/projects/vortex.webp';
 import Image13 from '../../assets/img/projects/bcard.webp';
 import Image14 from '../../assets/img/projects/firebase-crud.webp';
+import Image15 from '../../assets/img/projects/invoicer.webp';
 
 const PortfolioData = [
   {
@@ -253,13 +254,31 @@ const PortfolioData = [
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'Todo CRUD add with Login',
+        project: 'Todo CRUD with Login',
         client: 'Pet Project',
         techStack: 'Next.js, TailwindCSS, Firebase',
         preview: 'Live Preview',
         link: 'https://to-do-crud-nextjs.vercel.app/',
         github: 'Github',
         githubLink: 'https://github.com/Guccifer808/ToDoCRUD-nextjs',
+      },
+    ],
+  },
+  {
+    id: 15,
+    type: 'Invoicer',
+    image: Image15,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Invoicing App',
+        client: 'Pet Project',
+        techStack: 'React.js, TypeScript, TailwindCSS, Redux',
+        preview: 'Live Preview',
+        link: 'https://invoicer-chi.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/Invoicer',
       },
     ],
   },
