@@ -15,10 +15,10 @@ const App = () => {
   return (
     <div>
       <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
+        innerSize={6}
+        outerSize={24}
         color='255, 160, 1'
-        outerAlpha={0.3}
+        outerAlpha={0.25}
         innerScale={0.7}
         outerScale={1.2}
       />
