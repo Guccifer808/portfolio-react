@@ -23,7 +23,7 @@ const Contact = () => {
         'wHKDnOuPASssRRaFd'
       );
 
-      console.log(result.text);
+      // console.log(result.text);
       setSuccessMessage('Message sent successfully!');
       e.target.reset();
       setTimeout(() => setSuccessMessage(''), 5000); // Clear success message after 5 seconds

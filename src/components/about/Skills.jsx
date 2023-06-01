@@ -1,14 +1,53 @@
 import React from 'react';
+import {
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
+  SiNextdotjs,
+  SiReact,
+  SiSass,
+  SiTailwindcss,
+  SiTypescript,
+  SiWordpress,
+  SiGithub,
+  SiCssmodules,
+  SiRedux,
+} from 'react-icons/si';
 
 const skillsContent = [
-  { skillClass: 'p75', skillPercent: '75', skillName: 'HTML' },
-  { skillClass: 'p75', skillPercent: '75', skillName: 'CSS' },
-  { skillClass: 'p51', skillPercent: '51', skillName: 'JAVASCRIPT' },
-  { skillClass: 'p15', skillPercent: '15', skillName: 'TYPESCRIPT' },
-  { skillClass: 'p85', skillPercent: '85', skillName: 'WORDPRESS' },
-  { skillClass: 'p15', skillPercent: '15', skillName: 'JQUERY' },
-  { skillClass: 'p55', skillPercent: '55', skillName: 'REACT.JS' },
-  { skillClass: 'p15', skillPercent: '15', skillName: 'NEXT.JS' },
+  {
+    skillClass: 'p100',
+    skillIcon: <SiJavascript />,
+    skillName: 'JAVASCRIPT',
+  },
+  {
+    skillClass: 'p100',
+    skillIcon: <SiTypescript />,
+    skillName: 'TYPESCRIPT',
+  },
+  { skillClass: 'p100', skillIcon: <SiReact />, skillName: 'REACT.JS' },
+  { skillClass: 'p100', skillIcon: <SiNextdotjs />, skillName: 'NEXT.JS' },
+  { skillClass: 'p100', skillIcon: <SiHtml5 />, skillName: 'HTML' },
+  { skillClass: 'p100', skillIcon: <SiCss3 />, skillName: 'CSS' },
+  {
+    skillClass: 'p100',
+    skillIcon: <SiSass />,
+    skillName: 'SASS',
+  },
+  {
+    skillClass: 'p100',
+    skillIcon: <SiTailwindcss />,
+    skillName: 'TAILWINDCSS',
+  },
+  {
+    skillClass: 'p100',
+    skillIcon: <SiCssmodules />,
+    skillName: 'CSS Modules',
+  },
+  { skillClass: 'p100', skillIcon: <SiWordpress />, skillName: 'WORDPRESS' },
+
+  { skillClass: 'p100', skillIcon: <SiGithub />, skillName: 'Git' },
+  { skillClass: 'p100', skillIcon: <SiRedux />, skillName: 'Redux' },
 ];
 
 const Skills = () => {
@@ -17,7 +56,7 @@ const Skills = () => {
       {skillsContent.map((value, i) => (
         <div className='col-6 col-md-3 mb-3 mb-sm-5' key={i}>
           <div className={`c100 ${value.skillClass}`}>
-            <span>{value.skillPercent}%</span>
+            <span>{value.skillIcon}</span>
             <div className='slice'>
               <div className='bar'></div>
               <div className='fill'></div>

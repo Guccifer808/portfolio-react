@@ -8,7 +8,7 @@ import withScrollToTop from '../../utils/WithScrollToTop';
 
 const index = () => {
   return (
-    <section className='main-content '>
+    <section className='main-content'>
       <div className='container'>
         <div className='row'>
           {/* Personal Info Starts */}
@@ -17,7 +17,7 @@ const index = () => {
             <div className='row'>
               <div className='col-12'>
                 <h3 className='text-uppercase custom-title mb-0 ft-wt-600'>
-                  personal infos
+                  personal info
                 </h3>
               </div>
               {/* End .col */}
@@ -37,7 +37,11 @@ const index = () => {
               {/* End personal info */}
 
               <div className='col-12 mt-1'>
-                <a className='button' href='img/cv.webp' download>
+                <a
+                  className='button'
+                  href='/src/assets/CV_Serhii_Danyliuk_FrontEnd_React_Developer.pdf'
+                  download
+                >
                   <span className='button-text'>Download CV</span>
                   <span className='button-icon fa fa-download'></span>
                 </a>

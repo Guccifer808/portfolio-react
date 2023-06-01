@@ -1,17 +1,15 @@
 const personalInfoContent = [
-  { meta: 'first name', metaInfo: 'SERHII' },
-  { meta: 'last name', metaInfo: 'DANYLIUK' },
-  { meta: 'Age', metaInfo: '26 Years' },
+  { meta: 'first name', metaInfo: 'Serhii' },
+  { meta: 'last name', metaInfo: 'Danyliuk' },
+  { meta: 'Age', metaInfo: '26' },
   { meta: 'Nationality', metaInfo: 'Ukrainian' },
-  { meta: 'Freelance', metaInfo: 'Available' },
+  // { meta: 'Freelance', metaInfo: 'Available' },
   { meta: 'Address', metaInfo: 'Kyiv' },
-  { meta: 'phone', metaInfo: '+380734777877' },
-  { meta: 'Email', metaInfo: 'contact@guccifer.site' },
-  { meta: 'Skype', metaInfo: ' omgro1ex' },
+  // { meta: 'phone', metaInfo: '+380734777877' },
+  // { meta: 'Email', metaInfo: 'contact@guccifer.site' },
+  // { meta: 'Telegram', metaInfo: '@Guccifer808' },
   { meta: 'langages', metaInfo: 'English, Ukrainian, Russian' },
 ];
-
-// val -> value
 
 const PersonalInfo = () => {
   return (

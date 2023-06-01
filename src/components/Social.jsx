@@ -5,7 +5,7 @@ const SocialShare = [
   },
   {
     iconName: 'fa-linkedin',
-    link: 'https://linkedin.com/',
+    link: 'https://www.linkedin.com/in/sergey-daniliuk-9a9818184/',
   },
 ];
 

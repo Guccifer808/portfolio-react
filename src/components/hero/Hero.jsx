@@ -65,6 +65,7 @@ const Hero = () => {
         className='custom-modal dark hero'
         overlayClassName='custom-overlay dark'
         closeTimeoutMS={500}
+        appElement={document.getElementById('root')}
       >
         <div>
           <button className='close-modal' onClick={toggleModal}>

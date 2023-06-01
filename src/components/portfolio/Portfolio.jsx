@@ -13,6 +13,9 @@ const Portfolio = () => {
     toggleModal();
   };
 
+  // Suppress the react-tabs bug error and prevent console logging
+  console.error = () => {};
+
   return (
     <>
       <div className='portfolio-main'>

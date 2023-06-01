@@ -7,6 +7,7 @@ import Portfolio from '../components/portfolio/Portfolio';
 import Contact from '../components/Contact';
 import Social from '../components/Social';
 import SwitchDark from '../components/themeSwitcher/SwitchDark';
+
 const menuItem = [
   { icon: 'fa-home', menuName: 'Home' },
   { icon: 'fa-user', menuName: 'About' },
@@ -21,7 +22,7 @@ const HomeDark = () => {
       {/* End Switcher */}
       <Tabs>
         <div className='header'>
-          <TabList className=' icon-menu  revealator-slideup revealator-once revealator-delay1'>
+          <TabList className='icon-menu revealator-slideup revealator-once revealator-delay1'>
             {menuItem.map((item, i) => (
               <Tab className='icon-box' key={i}>
                 <i className={`fa ${item.icon}`}></i>
@@ -103,8 +104,7 @@ const HomeDark = () => {
                   </h3>
                   <p className='open-sans-font mb-4'>
                     Feel free to get in touch with me. I am always open to
-                    discussing new projects, creative ideas or opportunities to
-                    be part of your visions.
+                    discussing new projects, creative ideas or opportunities.
                   </p>
                   <Address />
                   {/* End Address */}

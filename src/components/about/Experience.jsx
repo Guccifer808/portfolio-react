@@ -1,24 +1,25 @@
 const experienceContent = [
   {
-    year: '   2018 - Present',
-    position: ' Web Developer, Marketing Team Manager',
-    compnayName: 'Private Entrepreneur',
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: '2018 - Present',
+    position: 'Front End Developer & Founder',
+    compnayName: 'Digital Agency - Private Entrepreneur',
+    details: `Developed websites, landing pages, e-commerce
+    projects, and SPA`,
+  },
+  {
+    year: '2018 - 2019',
+    position: 'Front End Developer & Founder',
+    compnayName: 'ItsPrints.com - Startup',
+    details: `Developed a business plan and raised initial capital
+    from investors to launch the business. Developed a website for the project`,
   },
   {
     year: '2017 - 2018',
-    position: ' Tech Support',
-    compnayName: 'Aurora Technologies',
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
-  },
-  {
-    year: '2015 - 2017',
-    position: 'Private Entrepreneur',
+    position: 'Technical Support',
     compnayName: 'Private Entrepreneur',
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    details: `Worked cross-functionally with other departments to
+    identify and resolve customer-facing issues. Offered feedback on web product operation to help
+    develop modifications and reduce user problems`,
   },
 ];
 
