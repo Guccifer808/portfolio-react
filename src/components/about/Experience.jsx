@@ -16,7 +16,7 @@ const experienceContent = [
   {
     year: '2017 - 2018',
     position: 'Technical Support',
-    compnayName: 'Private Entrepreneur',
+    compnayName: 'Aurora Technologies',
     details: `Worked cross-functionally with other departments to
     identify and resolve customer-facing issues. Offered feedback on web product operation to help
     develop modifications and reduce user problems`,
