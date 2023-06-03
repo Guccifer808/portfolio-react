@@ -47,6 +47,25 @@ const PortfolioData = [
     ],
   },
   {
+    id: 12,
+    type: 'SaaS Landing with Dashboard',
+    image: Image12,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'VorteX SaaS with Login and Dashboard',
+        client: 'Pet Project',
+        techStack:
+          'React.js, TypeScript, TailwindCSS, Framer-motion, Anchor-link, Firebase, Email.js',
+        preview: 'Live Preview',
+        link: 'https://software-landing-one.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/software-landing',
+      },
+    ],
+  },
+  {
     id: 3,
     type: 'React Dashboard Project',
     image: Image3,
@@ -102,24 +121,6 @@ const PortfolioData = [
     ],
   },
   {
-    id: 6,
-    type: 'Image Filter App',
-    image: Image6,
-
-    delayAnimation: '200',
-    modalDetails: [
-      {
-        project: 'Image Filter App',
-        client: 'Pet Project',
-        techStack: 'React.js, Vite, Material UI',
-        preview: 'Live Preview',
-        link: 'https://image-filter-app.pages.dev/',
-        github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/image-filter-app',
-      },
-    ],
-  },
-  {
     id: 7,
     type: 'Hotel Booking',
     image: Image7,
@@ -138,20 +139,20 @@ const PortfolioData = [
     ],
   },
   {
-    id: 8,
-    type: 'NightChat App Google Auth',
-    image: Image8,
+    id: 15,
+    type: 'Invoicer',
+    image: Image15,
 
-    delayAnimation: '100',
+    delayAnimation: '200',
     modalDetails: [
       {
-        project: 'NightChat',
+        project: 'Invoicing App',
         client: 'Pet Project',
-        techStack: 'Firebase, DaisyUI, Vite, Tailwind CSS',
+        techStack: 'React.js, TypeScript, TailwindCSS, Redux',
         preview: 'Live Preview',
-        link: 'https://livechat-gauth.pages.dev/',
+        link: 'https://invoicer-chi.vercel.app/',
         github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/livechat-gauth',
+        githubLink: 'https://github.com/Guccifer808/Invoicer',
       },
     ],
   },
@@ -173,21 +174,22 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 10,
-    type: 'API-list TypeScript',
-    image: Image10,
 
-    delayAnimation: '200',
+  {
+    id: 8,
+    type: 'NightChat App Google Auth',
+    image: Image8,
+
+    delayAnimation: '100',
     modalDetails: [
       {
-        project: 'API-list TypeScript',
+        project: 'NightChat',
         client: 'Pet Project',
-        techStack: 'React.js, TypeScript, Axios, TailwindCSS, Public APIs',
+        techStack: 'Firebase, DaisyUI, Vite, Tailwind CSS',
         preview: 'Live Preview',
-        link: 'https://api-list-public.vercel.app/',
+        link: 'https://livechat-gauth.pages.dev/',
         github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/api-list',
+        githubLink: 'https://github.com/Guccifer808/livechat-gauth',
       },
     ],
   },
@@ -210,24 +212,43 @@ const PortfolioData = [
     ],
   },
   {
-    id: 12,
-    type: 'SaaS Landing with Dashboard',
-    image: Image12,
+    id: 6,
+    type: 'Image Filter App',
+    image: Image6,
 
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'VorteX SaaS with Login and Dashboard',
+        project: 'Image Filter App',
         client: 'Pet Project',
-        techStack:
-          'React.js, TypeScript, TailwindCSS, Framer-motion, Anchor-link, Firebase, Email.js',
+        techStack: 'React.js, Vite, Material UI',
         preview: 'Live Preview',
-        link: 'https://software-landing-one.vercel.app/',
+        link: 'https://image-filter-app.pages.dev/',
         github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/software-landing',
+        githubLink: 'https://github.com/Guccifer808/image-filter-app',
       },
     ],
   },
+
+  {
+    id: 10,
+    type: 'API-list TypeScript',
+    image: Image10,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'API-list TypeScript',
+        client: 'Pet Project',
+        techStack: 'React.js, TypeScript, Axios, TailwindCSS, Public APIs',
+        preview: 'Live Preview',
+        link: 'https://api-list-public.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/api-list',
+      },
+    ],
+  },
+
   {
     id: 13,
     type: 'Business Card Generator',
@@ -261,24 +282,6 @@ const PortfolioData = [
         link: 'https://to-do-crud-nextjs.vercel.app/',
         github: 'Github',
         githubLink: 'https://github.com/Guccifer808/ToDoCRUD-nextjs',
-      },
-    ],
-  },
-  {
-    id: 15,
-    type: 'Invoicer',
-    image: Image15,
-
-    delayAnimation: '200',
-    modalDetails: [
-      {
-        project: 'Invoicing App',
-        client: 'Pet Project',
-        techStack: 'React.js, TypeScript, TailwindCSS, Redux',
-        preview: 'Live Preview',
-        link: 'https://invoicer-chi.vercel.app/',
-        github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/Invoicer',
       },
     ],
   },
