@@ -1,6 +1,6 @@
 const experienceContent = [
   {
-    year: '2018 - Present',
+    year: '2019 - Present',
     position: 'Front End Developer & Founder',
     compnayName: 'Digital Agency - Private Entrepreneur',
     details: `Developed websites, landing pages, e-commerce
