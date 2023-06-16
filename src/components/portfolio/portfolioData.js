@@ -31,22 +31,6 @@ const PortfolioData = [
     ],
   },
   {
-    id: 2,
-    type: 'Pool Website',
-    image: Image2,
-
-    delayAnimation: '100',
-    modalDetails: [
-      {
-        project: 'Pool Website',
-        client: 'Aqua-Ceh-Stroy LLC',
-        techStack: 'HTML, CSS, Javascript, WordPress',
-        preview: 'Website Link',
-        link: 'https://aquacehstroy.com.ua/',
-      },
-    ],
-  },
-  {
     id: 12,
     type: 'SaaS Landing with Dashboard',
     image: Image12,
@@ -66,24 +50,24 @@ const PortfolioData = [
     ],
   },
   {
-    id: 3,
-    type: 'React Dashboard Project',
-    image: Image3,
+    id: 15,
+    type: 'Invoicer',
+    image: Image15,
 
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'React Dashboard Project',
+        project: 'Invoicing App',
         client: 'Pet Project',
-        techStack:
-          'React.js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, Data Grid',
+        techStack: 'React.js, TypeScript, TailwindCSS, Redux',
         preview: 'Live Preview',
-        link: 'https://react-admin-dashboard-v1.vercel.app/',
+        link: 'https://invoicer-chi.vercel.app/',
         github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/React-admin-dashboard-v1',
+        githubLink: 'https://github.com/Guccifer808/Invoicer',
       },
     ],
   },
+
   {
     id: 4,
     type: 'Fitness Landing Page',
@@ -138,24 +122,7 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 15,
-    type: 'Invoicer',
-    image: Image15,
 
-    delayAnimation: '200',
-    modalDetails: [
-      {
-        project: 'Invoicing App',
-        client: 'Pet Project',
-        techStack: 'React.js, TypeScript, TailwindCSS, Redux',
-        preview: 'Live Preview',
-        link: 'https://invoicer-chi.vercel.app/',
-        github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/Invoicer',
-      },
-    ],
-  },
   {
     id: 9,
     type: 'Kanban TypeScript',
@@ -174,7 +141,41 @@ const PortfolioData = [
       },
     ],
   },
+  {
+    id: 3,
+    type: 'React Dashboard Project',
+    image: Image3,
 
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'React Dashboard Project',
+        client: 'Pet Project',
+        techStack:
+          'React.js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, Data Grid',
+        preview: 'Live Preview',
+        link: 'https://react-admin-dashboard-v1.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/React-admin-dashboard-v1',
+      },
+    ],
+  },
+  {
+    id: 2,
+    type: 'Pool Website',
+    image: Image2,
+
+    delayAnimation: '100',
+    modalDetails: [
+      {
+        project: 'Pool Website',
+        client: 'Aqua-Ceh-Stroy LLC',
+        techStack: 'HTML, CSS, Javascript, WordPress',
+        preview: 'Website Link',
+        link: 'https://aquacehstroy.com.ua/',
+      },
+    ],
+  },
   {
     id: 8,
     type: 'NightChat App Google Auth',
