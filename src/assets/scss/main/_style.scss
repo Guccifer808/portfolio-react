@@ -415,7 +415,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 /*** Navigation ***/
 .home-details-container {
   @media (max-width: 991px) {
-    height: 100vh;
+    height: calc(100vh / 1.1);
   }
 }
 .header {

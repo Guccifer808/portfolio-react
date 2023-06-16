@@ -6,7 +6,7 @@ import Address from '../components/Address';
 import Portfolio from '../components/portfolio/Portfolio';
 import Contact from '../components/Contact';
 import Social from '../components/Social';
-import SwitchDark from '../components/themeSwitcher/SwitchDark';
+// import SwitchDark from '../components/themeSwitcher/SwitchDark';
 
 const menuItem = [
   { icon: 'fa-home', menuName: 'Home' },
@@ -18,7 +18,7 @@ const menuItem = [
 const HomeDark = () => {
   return (
     <div className='yellow'>
-      <SwitchDark />
+      {/* <SwitchDark /> */}
       {/* End Switcher */}
       <Tabs>
         <div className='header'>
