@@ -2,7 +2,7 @@ const Address = () => {
   const addressLink =
     'https://www.google.com/maps/place/Kyiv,+02000/data=!4m2!3m1!1s0x40d4cf4ee15a4505:0x764931d2170146fe?sa=X&ved=2ahUKEwjk8O3wnKH7AhWQ6CoKHdSTDLgQ8gF6BAgTEAE';
   const emailLink = 'mailto:contact@guccifer.site';
-  const phoneNumber = '+380734777877';
+  // const phoneNumber = '+380734777877';
   const telegram = 'Guccifer808';
 
   const ContactItem = ({ iconClass, title, children }) => (
@@ -23,9 +23,9 @@ const Address = () => {
       <ContactItem iconClass='fa-envelope-open' title='Mail me'>
         <a href={emailLink}>contact@guccifer.site</a>
       </ContactItem>
-      <ContactItem iconClass='fa-phone-square' title='Call me'>
+      {/* <ContactItem iconClass='fa-phone-square' title='Call me'>
         <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
-      </ContactItem>
+      </ContactItem> */}
       <ContactItem iconClass='fa-telegram' title='Message me'>
         <a
           href={`https://telegram.me/${telegram}`}
