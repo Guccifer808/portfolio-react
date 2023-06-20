@@ -39,7 +39,7 @@ const index = () => {
               <div className='col-12 mt-1'>
                 <a
                   className='button'
-                  href='/src/assets/CV_Serhii_Danyliuk_FrontEnd_React_Developer.pdf'
+                  href='/CV_Serhii_Danyliuk_FrontEnd_React_Developer.pdf'
                   download
                 >
                   <span className='button-text'>Download CV</span>
