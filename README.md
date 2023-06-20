@@ -3,6 +3,7 @@
 - Vite
 - React.js
 - React Router, React Tabs, React Hook Form, Slick Carousel etc.
+- Zustand
 - EmailJS
 - SASS
 
