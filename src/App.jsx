@@ -1,12 +1,18 @@
-import React, { useEffect, Suspense } from 'react';
+import React, { useEffect } from 'react';
 import Routing from './router/Routing';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import AnimatedCursor from 'react-animated-cursor';
+import ReactGA from 'react-ga';
+const TRACKING_ID = 'UA-260491160-1';
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   // this for animation
   useEffect(() => {
+    // Initialize Google Analytics and track page view on component mount
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     AOS.init({
       duration: 1200,
     });
