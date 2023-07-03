@@ -12,6 +12,10 @@ import {
   SiGithub,
   SiCssmodules,
   SiRedux,
+  SiVite,
+  SiMui,
+  SiAxios,
+  SiFirebase,
 } from 'react-icons/si';
 
 const skillsContent = [
@@ -48,6 +52,10 @@ const skillsContent = [
 
   { skillClass: 'p100', skillIcon: <SiGithub />, skillName: 'Git' },
   { skillClass: 'p100', skillIcon: <SiRedux />, skillName: 'Redux' },
+  { skillClass: 'p100', skillIcon: <SiVite />, skillName: 'Vite' },
+  { skillClass: 'p100', skillIcon: <SiMui />, skillName: 'Mui' },
+  { skillClass: 'p100', skillIcon: <SiAxios />, skillName: 'Axios' },
+  { skillClass: 'p100', skillIcon: <SiFirebase />, skillName: 'Firebase' },
 ];
 
 const Skills = () => {
