@@ -178,22 +178,22 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 2,
-    type: 'Pool Website',
-    image: Image2,
+  // {
+  //   id: 2,
+  //   type: 'Pool Website',
+  //   image: Image2,
 
-    delayAnimation: '100',
-    modalDetails: [
-      {
-        project: 'Pool Website',
-        client: 'Aqua-Ceh-Stroy LLC',
-        techStack: 'HTML, CSS, Javascript, WordPress',
-        preview: 'Website Link',
-        link: 'https://aquacehstroy.com.ua/',
-      },
-    ],
-  },
+  //   delayAnimation: '100',
+  //   modalDetails: [
+  //     {
+  //       project: 'Pool Website',
+  //       client: 'Aqua-Ceh-Stroy LLC',
+  //       techStack: 'HTML, CSS, Javascript, WordPress',
+  //       preview: 'Website Link',
+  //       link: 'https://aquacehstroy.com.ua/',
+  //     },
+  //   ],
+  // },
   {
     id: 8,
     type: 'NightChat App Google Auth',
