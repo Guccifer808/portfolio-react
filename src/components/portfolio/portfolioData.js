@@ -13,6 +13,7 @@ import Image12 from '../../assets/img/projects/vortex.webp';
 import Image13 from '../../assets/img/projects/bcard.webp';
 import Image14 from '../../assets/img/projects/firebase-crud.webp';
 import Image15 from '../../assets/img/projects/invoicer.webp';
+import Image16 from '../../assets/img/projects/zapquant-1.webp';
 
 const PortfolioData = [
   {
@@ -67,7 +68,24 @@ const PortfolioData = [
       },
     ],
   },
+  {
+    id: 16,
+    type: 'ZapQuant Marketing',
+    image: Image16,
 
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Landing Page for ZapQuant',
+        client: 'ZapQuant Marketing LLC',
+        techStack: 'React.js, TypeScript, TailwindCSS, Framer-Motion, Vite',
+        preview: 'Live Preview',
+        link: 'https://zapquant-marketing.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/zapquant-marketing',
+      },
+    ],
+  },
   {
     id: 4,
     type: 'Fitness Landing Page',

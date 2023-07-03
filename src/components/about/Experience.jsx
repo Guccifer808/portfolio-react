@@ -3,15 +3,15 @@ const experienceContent = [
     year: '2019 - Present',
     position: 'Front End Developer & Founder',
     compnayName: 'Digital Agency - Private Entrepreneur',
-    details: `Developed websites, landing pages, e-commerce
-    projects, and SPA`,
+    details: `Developed websites, landing pages, e-commerce projects, and SPA for the US market.
+Maintenance, implementation of new features, speed optimization.`,
   },
   {
     year: '2018 - 2019',
-    position: 'Front End Developer & Founder',
+    position: 'Front End Developer',
     compnayName: 'ItsPrints.com - Startup',
-    details: `Developed a business plan and raised initial capital
-    from investors to launch the business. Developed a website for the project`,
+    details: `Developed a full-stack website for the project based on WordPress CMS.
+Maintenance and implementation of new features`,
   },
   {
     year: '2017 - 2018',
