@@ -1,32 +1,29 @@
-import { Link } from 'react-router-dom';
-import image404 from '../assets/img/404.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const NotFound = () => {
-  return (
-    <div className='error_page'>
-      <div
-        className='hero bg-image'
-        style={{
-          backgroundImage: `url(${image404})`,
-        }}
-      >
-        <div className='content'>
-          <h1 data-aos='fade-up' data-aos-duration='1200'>
-            404!
-          </h1>
-          <p data-aos='fade-up' data-aos-duration='1200' data-aos-delay='50'>
-            Ooops! Page not found
-          </p>
+  const navigate = useNavigate();
 
-          <div
-            className='button'
-            data-aos='fade-up'
-            data-aos-duration='1200'
-            data-aos-delay='100'
+  return (
+    <div className='grid-container'>
+      <h1 className='not-found-heading'>404 | Not Found</h1>
+      <div className='button-container'>
+        <button onClick={() => navigate('/')} className='go-back-button'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke='currentColor'
+            className='arrow-icon'
           >
-            <Link to='/'>BACK TO HOME</Link>
-          </div>
-        </div>
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='1.5'
+              d='M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18'
+            />
+          </svg>
+          <span>Go back</span>
+        </button>
       </div>
     </div>
   );
