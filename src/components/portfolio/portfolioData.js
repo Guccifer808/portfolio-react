@@ -32,21 +32,20 @@ const PortfolioData = [
     ],
   },
   {
-    id: 12,
-    type: 'SaaS Landing with Dashboard',
-    image: Image12,
+    id: 16,
+    type: 'ZappQuant Marketing',
+    image: Image16,
 
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'VorteX SaaS with Login and Dashboard',
-        client: 'Pet Project',
-        techStack:
-          'React.js, TypeScript, TailwindCSS, Framer-motion, Anchor-link, Firebase, Email.js',
+        project: 'Landing Page for ZapQuant',
+        client: 'ZapQuant Marketing LLC',
+        techStack: 'React.js, TypeScript, TailwindCSS, Framer-Motion, Vite',
         preview: 'Live Preview',
-        link: 'https://software-landing-one.vercel.app/',
+        link: 'https://www.zappquantmarketing.com/',
         github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/software-landing',
+        githubLink: 'https://github.com/Guccifer808/zapquant-marketing',
       },
     ],
   },
@@ -68,24 +67,7 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 16,
-    type: 'ZapQuant Marketing',
-    image: Image16,
 
-    delayAnimation: '200',
-    modalDetails: [
-      {
-        project: 'Landing Page for ZapQuant',
-        client: 'ZapQuant Marketing LLC',
-        techStack: 'React.js, TypeScript, TailwindCSS, Framer-Motion, Vite',
-        preview: 'Live Preview',
-        link: 'https://zapquant-marketing.vercel.app/',
-        github: 'Github',
-        githubLink: 'https://github.com/Guccifer808/zapquant-marketing',
-      },
-    ],
-  },
   {
     id: 4,
     type: 'Fitness Landing Page',
@@ -194,6 +176,25 @@ const PortfolioData = [
   //     },
   //   ],
   // },
+  {
+    id: 12,
+    type: 'SaaS Landing with Dashboard',
+    image: Image12,
+
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'VorteX SaaS with Login and Dashboard',
+        client: 'Pet Project',
+        techStack:
+          'React.js, TypeScript, TailwindCSS, Framer-motion, Anchor-link, Firebase, Email.js',
+        preview: 'Live Preview',
+        link: 'https://software-landing-one.vercel.app/',
+        github: 'Github',
+        githubLink: 'https://github.com/Guccifer808/software-landing',
+      },
+    ],
+  },
   {
     id: 8,
     type: 'NightChat App Google Auth',
