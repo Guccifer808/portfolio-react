@@ -16,6 +16,10 @@ import {
   SiMui,
   SiAxios,
   SiFirebase,
+  SiMobx,
+  SiShopify,
+  SiI18Next,
+  SiJest,
 } from 'react-icons/si';
 
 const skillsContent = [
@@ -48,14 +52,18 @@ const skillsContent = [
     skillIcon: <SiCssmodules />,
     skillName: 'CSS Modules',
   },
-  { skillClass: 'p100', skillIcon: <SiWordpress />, skillName: 'WORDPRESS' },
 
   { skillClass: 'p100', skillIcon: <SiGithub />, skillName: 'Git' },
   { skillClass: 'p100', skillIcon: <SiRedux />, skillName: 'Redux' },
+  { skillClass: 'p100', skillIcon: <SiMobx />, skillName: 'MobX' },
   { skillClass: 'p100', skillIcon: <SiVite />, skillName: 'Vite' },
   { skillClass: 'p100', skillIcon: <SiMui />, skillName: 'Mui' },
   { skillClass: 'p100', skillIcon: <SiAxios />, skillName: 'Axios' },
+  { skillClass: 'p100', skillIcon: <SiI18Next />, skillName: 'i18next' },
+  { skillClass: 'p100', skillIcon: <SiJest />, skillName: 'Jest' },
   { skillClass: 'p100', skillIcon: <SiFirebase />, skillName: 'Firebase' },
+  { skillClass: 'p100', skillIcon: <SiWordpress />, skillName: 'WordPress' },
+  { skillClass: 'p100', skillIcon: <SiShopify />, skillName: 'Shopify' },
 ];
 
 const Skills = () => {
