@@ -54,12 +54,12 @@ const Hero = () => {
               I'm {heroContent.heroTitleName}.
               <Typed
                 strings={heroDesignation}
-                typeSpeed={90}
+                typeSpeed={30}
                 className='heroTitleNameTyped'
               />
             </h1>
             <p className='open-sans-font'>
-              <Typed strings={heroDescriptions} typeSpeed={30} />
+              <Typed strings={heroDescriptions} typeSpeed={25} />
             </p>
             <button className='button' onClick={toggleModal}>
               <span className='button-text'>{heroContent.heroBtn}</span>
