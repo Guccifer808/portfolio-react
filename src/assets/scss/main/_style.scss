@@ -415,7 +415,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 /*** Navigation ***/
 .home-details-container {
   @media (max-width: 991px) {
-    height: calc(100vh / 1.1);
+    height: 92.7vh;
     overflow: hidden;
   }
 }
@@ -1392,6 +1392,7 @@ body.light .contact .custom-span-contact a {
   .home .home-details p {
     font-size: 14px;
     line-height: 28px;
+    min-height: 140px;
   }
 }
 

@@ -14,18 +14,85 @@ import Image13 from '../../assets/img/projects/bcard.webp';
 import Image14 from '../../assets/img/projects/firebase-crud.webp';
 import Image15 from '../../assets/img/projects/invoicer.webp';
 import Image16 from '../../assets/img/projects/zapquant-1.webp';
+import Image17 from '../../assets/img/projects/LMGRE.webp';
+import Image18 from '../../assets/img/projects/Zk.webp';
+import Image19 from '../../assets/img/projects/413CK.webp';
+import Image20 from '../../assets/img/projects/Iconique.webp';
 
 const PortfolioData = [
   {
+    id: 18,
+    type: 'LM Group Real Estate',
+    image: Image17,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Real Estate Landing Page Project',
+        client: 'LM Group Real Estate',
+        techStack:
+          'React.js, TypeScript, TailwindCSS, Framer-Motion, Vite, SwiperJs, EmailJs',
+        preview: 'Website Link',
+        link: 'https://ru.lmg.realestate/',
+      },
+    ],
+  },
+  {
+    id: 17,
+    type: 'Manhattan Global Partners',
+    image: Image18,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Investment Portfolio Website Project',
+        client: 'Manhattan Global Partners LLC (MGP)',
+        techStack: 'TailwindCSS, Javascript, SwiperJs, Wix CMS',
+        preview: 'Website Link',
+        link: 'https://www.zaidkhan.info/',
+      },
+    ],
+  },
+
+  {
+    id: 20,
+    type: 'Iconique Jewelry',
+    image: Image20,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Jewelry Website Project',
+        client: 'Iconique Jewelry LLC',
+        techStack: 'HTML, CSS, Liquid, Shopify CMS',
+        preview: 'Website Link',
+        link: 'https://iconiquejewelry.com/',
+      },
+    ],
+  },
+  {
+    id: 19,
+    type: '413CarKey',
+    image: Image19,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Automotive Locksmith Website Project',
+        client: '413CarKey LLC',
+        techStack:
+          'React.js, TypeScript, TailwindCSS, Framer-Motion, Vite, SwiperJs, EmailJs',
+        preview: 'Website Link',
+        link: 'https://413carkey.com/',
+      },
+    ],
+  },
+  {
     id: 1,
-    type: 'Furnishing Website Project',
+    type: 'LuxWorld',
     image: Image1,
     delayAnimation: '0',
     modalDetails: [
       {
         project: 'Furnishing Website Project',
         client: 'LuxWorld LLC',
-        techStack: 'HTML, CSS, Javascript, WordPress',
+        techStack: 'HTML, CSS, Javascript, PHP, WordPress CMS',
         preview: 'Website Link',
         link: 'https://luxworldfurnishing.com/',
       },
@@ -39,7 +106,7 @@ const PortfolioData = [
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'Landing Page for ZapQuant',
+        project: 'Landing Page for ZappQuant',
         client: 'ZapQuant Marketing LLC',
         techStack: 'React.js, TypeScript, TailwindCSS, Framer-Motion, Vite',
         preview: 'Live Preview',

@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import Index from '../../components/about/index';
 import CloseImg from '../../assets/img/cancel.svg';
 import heroImg from '../../assets/img/hero/hero-1.png';
-
+import Typed from 'react-typed';
 //rename to home?
 //
 
@@ -11,13 +11,20 @@ const heroContent = {
   heroImage: 'img/hero/dark.jpg',
   heroMobileImage: 'img-mobile',
   heroTitleName: 'Serhii Danyliuk',
-  heroDesignation: 'web developer',
   heroDescriptions: `I'm a Ukrainian based front‑end developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
   around me.`,
   heroBtn: 'more about me',
 };
+
+const heroDesignation = ['web developer'];
+const heroDescriptions = [
+  `I'm a Ukrainian based front‑end developer focused on
+  crafting clean and user‑friendly experiences, I am passionate about
+  building excellent software that improves the lives of those
+  around me.`,
+];
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +42,7 @@ const Hero = () => {
             backgroundImage: `url(${heroImg}`,
           }}
         ></div>
-        <div className='col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start'>
+        <div className='col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start'>
           <div>
             {/* Disabled img on mobile */}
             <img
@@ -45,9 +52,15 @@ const Hero = () => {
             />
             <h1 className='text-uppercase poppins-font'>
               I'm {heroContent.heroTitleName}.
-              <span>{heroContent.heroDesignation}</span>
+              <Typed
+                strings={heroDesignation}
+                typeSpeed={90}
+                className='heroTitleNameTyped'
+              />
             </h1>
-            <p className='open-sans-font'>{heroContent.heroDescriptions}</p>
+            <p className='open-sans-font'>
+              <Typed strings={heroDescriptions} typeSpeed={30} />
+            </p>
             <button className='button' onClick={toggleModal}>
               <span className='button-text'>{heroContent.heroBtn}</span>
               <span className='button-icon fa fa-arrow-right'></span>
