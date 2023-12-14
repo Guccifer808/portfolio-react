@@ -39,8 +39,9 @@ const index = () => {
               <div className='col-12 mt-1'>
                 <a
                   className='button'
-                  href='/CV_Serhii_Danyliuk_FrontEnd_React_Developer.pdf'
+                  // href='/CV_Serhii_Danyliuk_FrontEnd_React_Developer.pdf'
                   download
+                  // disabled
                 >
                   <span className='button-text'>Download CV</span>
                   <span className='button-icon fa fa-download'></span>
