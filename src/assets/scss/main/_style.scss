@@ -1802,7 +1802,36 @@ button:focus {
     }
   }
 }
+
+/* [ MISC ] */
+/*================================================== */
+
 // Google recaptcha
 .captcha {
   margin-bottom: 35px;
+}
+
+// Selection color
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: var(--main-primary-color);
+}
+
+::selection {
+  color: white;
+  background: var(--main-primary-color);
+}
+
+/* [ HOTFIXES ] */
+/*================================================== */
+@media (max-width: 767px) {
+  .home .home-details h1 span {
+    color: #fff;
+    display: inline-block;
+  }
+}
+.home .home-details h1 span {
+  color: #fff;
+  display: inline-block;
 }
