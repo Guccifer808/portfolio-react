@@ -10,7 +10,7 @@ import Typed from 'react-typed';
 const heroContent = {
   heroImage: 'img/hero/dark.jpg',
   heroMobileImage: 'img-mobile',
-  heroTitleName: 'Serhii Danyliuk',
+  heroTitleName: 'Sergey Danyliuk',
   heroDescriptions: `I'm a Ukrainian based front‑end developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those

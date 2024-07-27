@@ -1,17 +1,22 @@
 const experienceContent = [
   {
+    year: '2022 - Present',
+    position: 'Fyll-Stack Web Developer',
+    compnayName: 'ZappQuant Marketing',
+    details: `Orchestrating end-to-end web development, merging front-end and back-end functionality to optimize user experiences and drive business goals.`,
+  },
+  {
     year: '2019 - Present',
-    position: 'Front End Developer & Founder',
-    compnayName: 'Digital Agency - Private Entrepreneur',
-    details: `Developed websites, landing pages, e-commerce projects, and SPA for the US market.
-Maintenance, implementation of new features, speed optimization.`,
+    position: 'Web Developer',
+    compnayName: 'ZappQuant Marketing',
+    details: `Responsible for Web Development, leading the creation of intuitive user interfaces and engaging experiences to enhance overall product functionality and user satisfaction.`,
   },
   {
     year: '2018 - 2019',
-    position: 'Front End Developer',
-    compnayName: 'ItsPrints.com - Startup',
-    details: `Developed a full-stack website for the project based on WordPress CMS.
-Maintenance and implementation of new features`,
+    position: 'Founder',
+    compnayName: 'ItsPrints.com - Amazon POD Startup',
+    details: `Developed a full-stack website for the project using WordPress CMS.
+Maintenance and implementation of new features.`,
   },
   {
     year: '2017 - 2018',
@@ -19,7 +24,7 @@ Maintenance and implementation of new features`,
     compnayName: 'Aurora Technologies',
     details: `Worked cross-functionally with other departments to
     identify and resolve customer-facing issues. Offered feedback on web product operation to help
-    develop modifications and reduce user problems`,
+    develop modifications and reduce user problems.`,
   },
 ];
 

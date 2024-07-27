@@ -36,7 +36,7 @@ const index = () => {
               </div>
               {/* End personal info */}
 
-              <div className='col-12 mt-1'>
+              {/* <div className='col-12 mt-1'>
                 <a
                   className='button'
                   // href='/CV_Serhii_Danyliuk_FrontEnd_React_Developer.pdf'
@@ -46,7 +46,7 @@ const index = () => {
                   <span className='button-text'>Download CV</span>
                   <span className='button-icon fa fa-download'></span>
                 </a>
-              </div>
+              </div> */}
               {/* End download button */}
             </div>
           </div>

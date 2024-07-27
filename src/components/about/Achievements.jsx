@@ -1,5 +1,5 @@
 const achievementsContent = [
-  { title: '5', subTitle1: 'years of', subTitle2: 'experience' },
+  { title: '6', subTitle1: 'years of', subTitle2: 'experience' },
   { title: '71', subTitle1: 'completed', subTitle2: 'projects' },
   { title: '71', subTitle1: 'Happy', subTitle2: 'customers' },
   { title: '∞', subTitle1: 'problems', subTitle2: 'solved' },

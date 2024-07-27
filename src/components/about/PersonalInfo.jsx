@@ -1,7 +1,7 @@
 const personalInfoContent = [
-  { meta: 'first name', metaInfo: 'Serhii' },
+  { meta: 'first name', metaInfo: 'Sergey' },
   { meta: 'last name', metaInfo: 'Danyliuk' },
-  { meta: 'Age', metaInfo: '26' },
+  { meta: 'Age', metaInfo: '27' },
   { meta: 'Nationality', metaInfo: 'Ukrainian' },
   // { meta: 'Freelance', metaInfo: 'Available' },
   { meta: 'Address', metaInfo: 'Kyiv' },

@@ -11,7 +11,7 @@ import Social from '../components/Social';
 const menuItem = [
   { icon: 'fa-home', menuName: 'Home' },
   { icon: 'fa-user', menuName: 'About' },
-  { icon: 'fa-briefcase', menuName: 'Portfolio' },
+  { icon: 'fa-briefcase', menuName: 'Projects' },
   { icon: 'fa-envelope-open', menuName: 'Contact' },
 ];
 
@@ -70,9 +70,9 @@ const HomeDark = () => {
               data-aos-duration='1200'
             >
               <h1>
-                my <span>portfolio</span>
+                my <span>projects</span>
               </h1>
-              <span className='title-bg'>works</span>
+              <span className='title-bg'>portfolio</span>
             </div>
             {/* End title */}
             <Portfolio />

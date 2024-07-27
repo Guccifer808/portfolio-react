@@ -1,5 +1,4 @@
 import Image1 from '../../assets/img/projects/luxworld-1.webp';
-import Image2 from '../../assets/img/projects/aquaceh-1.webp';
 import Image3 from '../../assets/img/projects/react-dashboard-1.png';
 import Image4 from '../../assets/img/projects/fitness-ts-1.png';
 import Image5 from '../../assets/img/projects/dashboard-nextjs-1.png';
@@ -18,8 +17,42 @@ import Image17 from '../../assets/img/projects/LMGRE.webp';
 import Image18 from '../../assets/img/projects/Zk.webp';
 import Image19 from '../../assets/img/projects/413CK.webp';
 import Image20 from '../../assets/img/projects/Iconique.webp';
+import Image21 from '../../assets/img/projects/msg.png';
+import Image22 from '../../assets/img/projects/fmbest.jpeg';
 
 const PortfolioData = [
+  {
+    id: 22,
+    type: 'FastMoney Exchange',
+    image: Image22,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Full-stack Next.js Project',
+        client: 'FastMoney Exchange',
+        techStack:
+          'Next.js, StrapiCMS, Firebase, GoogleAPIs, MUI, Boostrap, wow.js',
+        preview: 'Website Link',
+        link: 'https://www.fmbest.pro/en',
+      },
+    ],
+  },
+  {
+    id: 21,
+    type: 'MedServiceGroup',
+    image: Image21,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Full-stack Next.js Project',
+        client: 'MedServiceGroup',
+        techStack:
+          'Next.js, TailwindCSS, Framer-Motion, SwiperJs, Maingun, MDX',
+        preview: 'Website Link',
+        link: 'https://msg-bay.vercel.app/',
+      },
+    ],
+  },
   {
     id: 18,
     type: 'LM Group Real Estate',
