@@ -11,7 +11,7 @@ const heroContent = {
   heroImage: 'img/hero/dark.jpg',
   heroMobileImage: 'img-mobile',
   heroTitleName: 'Sergey Danyliuk',
-  heroDescriptions: `I'm a Ukrainian based front‑end developer focused on
+  heroDescriptions: `I'm a Ukrainian based web developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
   around me.`,
@@ -20,7 +20,7 @@ const heroContent = {
 
 const heroDesignation = ['web developer'];
 const heroDescriptions = [
-  `I'm a Ukrainian based front‑end developer focused on
+  `I'm a Ukrainian based web developer focused on
   crafting clean and user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
   around me.`,
