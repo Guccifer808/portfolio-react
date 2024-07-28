@@ -1,8 +1,8 @@
 const experienceContent = [
   {
     year: '2022 - Present',
-    position: 'Fyll-Stack Web Developer',
-    compnayName: 'ZappQuant Marketing',
+    position: 'Full-Stack Web Developer',
+    compnayName: 'Manhattan Global Partners',
     details: `Orchestrating end-to-end web development, merging front-end and back-end functionality to optimize user experiences and drive business goals.`,
   },
   {
