@@ -2,7 +2,6 @@ import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-import TestSketch from '../../Test';
 
 const Contact = () => {
   const {
@@ -34,7 +33,6 @@ const Contact = () => {
   };
   return (
     <>
-      <TestSketch />
       <form className='contactform' onSubmit={handleSubmit(onSubmit)}>
         <div className='row'>
           <div className='col-12 col-md-6'>
