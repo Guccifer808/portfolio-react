@@ -20,8 +20,25 @@ import Image20 from '../../assets/img/projects/Iconique.webp';
 import Image21 from '../../assets/img/projects/msg.png';
 import Image22 from '../../assets/img/projects/fmbest.jpeg';
 import Image23 from '../../assets/img/projects/MGP.webp';
+import Image23 from '../../assets/img/projects/Gladstone.webp';
 
 const PortfolioData = [
+  {
+    id: 24,
+    type: 'Gladstone Commercial Capital',
+    image: Image24,
+    delayAnimation: '0',
+    modalDetails: [
+      {
+        project: 'Velo.js & WIX CMS Project',
+        client: 'Gladstone Commercial Capital',
+        techStack:
+          'Next.js, HubSpot API, TypeScript, Zustand, TailwindCSS, Framer-motion',
+        preview: 'Website Link',
+        link: 'https://www.gladstonecc.com/',
+      },
+    ],
+  },
   {
     id: 23,
     type: 'Manhattan Global Partners',
