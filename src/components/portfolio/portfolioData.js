@@ -18,7 +18,7 @@ import Image18 from '../../assets/img/projects/Zk.webp';
 import Image19 from '../../assets/img/projects/413CK.webp';
 import Image20 from '../../assets/img/projects/Iconique.webp';
 import Image21 from '../../assets/img/projects/msg.png';
-import Image22 from '../../assets/img/projects/fmbest.jpeg';
+import Image22 from '../../assets/img/projects/fmbest.webp';
 import Image23 from '../../assets/img/projects/MGP.webp';
 import Image24 from '../../assets/img/projects/Gladstone.webp';
 
