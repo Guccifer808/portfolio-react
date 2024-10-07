@@ -20,7 +20,7 @@ import Image20 from '../../assets/img/projects/Iconique.webp';
 import Image21 from '../../assets/img/projects/msg.png';
 import Image22 from '../../assets/img/projects/fmbest.jpeg';
 import Image23 from '../../assets/img/projects/MGP.webp';
-import Image23 from '../../assets/img/projects/Gladstone.webp';
+import Image24 from '../../assets/img/projects/Gladstone.webp';
 
 const PortfolioData = [
   {
